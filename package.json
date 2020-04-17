@@ -1,0 +1,15 @@
+{
+  "name": "testing-cobaul",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jesse Luoto <jesse.luoto@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "serve": "^11.3.0"
+  },
+  "scripts": {
+    "watch": "nodemon -e cob --exec './build.sh && serve public'"
+  }
+}
